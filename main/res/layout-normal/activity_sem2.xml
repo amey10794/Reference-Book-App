@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.amey.refbook.Sem2"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select A Subject:"
+        android:textSize="30dip"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ssub11"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Syllabus"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="80dip"
+        android:layout_marginTop="5dip"
+        android:onClick="ongtsyclick"
+        android:id="@+id/gsy"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Book Name:"
+            android:textSize="20dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="70dip"
+            android:id="@+id/sbk1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. A text book of Applied Mathematics, P.N.Wartikar and J.N.Wartikar"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/am11"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Higher Engineering Mathematics, Dr.B.S.Grewal, Khanna Publication"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            android:id="@+id/am12"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Engineering Chemistry – Jain and Jain, Dhanpat Rai"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/ac11"
+            />
+        <TextView
+            android:id="@+id/ac12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Engineering Chemistry – Dara and Dara, S Chand"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. A Textbook of Engineering physics - Avadhanulu and Kshirsagar, S.Chand"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/ap11"
+            />
+        <TextView
+            android:id="@+id/ap12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Engineering Physics- Uma Mukherji ( third edition), Narosa"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.N.D. Bhatt, “Engineering Drawing (Plane and solid geometry)”"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/eme11"
+            />
+        <TextView
+            android:id="@+id/eme12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.N.D. Bhatt and V.M. Panchal, “Machine Drawing”"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Introduction to Engineering programming,James Hollowat John Wiley"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/bee11"
+            />
+        <TextView
+            android:id="@+id/bee12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Introduction to programming and problem solving,Wiley India edition"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Communication Skills by Oxford University Press"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/evs11"
+            />
+        <TextView
+            android:id="@+id/evs12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Business Communication By Himalaya Publications"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Get Online"
+            android:id="@+id/gtol1"
+            android:onClick="ongetonlineclick1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Get Online"
+            android:id="@+id/gtol2"
+            android:onClick="ongetonlineclick2"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Get Online"
+            android:id="@+id/gtol3"
+            android:onClick="ongetonlineclick3"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Get Online"
+            android:id="@+id/gtol4"
+            android:onClick="ongetonlineclick4"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Get Online"
+            android:id="@+id/gtol5"
+            android:onClick="ongetonlineclick5"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Get Online"
+            android:id="@+id/gtol6"
+            android:onClick="ongetonlineclick6"
+            />
+
+
+    </RelativeLayout>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/ssub11"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
