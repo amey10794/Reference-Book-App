@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.amey.refbook.sem4extc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select A Subject:"
+        android:textSize="30dip"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ssub11"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Syllabus"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="80dip"
+        android:layout_marginTop="5dip"
+        android:onClick="ongtsyclick"
+        android:id="@+id/gsy"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Book Name:"
+            android:textSize="20dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="70dip"
+            android:id="@+id/sbk1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1. Higher Engineering Mathematics by Grewal B. S."
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/am11"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Mathematical Methods in science and Engineering"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            android:id="@+id/am12"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Donald A. Neamen, Electronic Circuit Analysis and Design"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/ac11"
+            />
+        <TextView
+            android:id="@+id/ac12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.S. Salivahanan, N. Suresh Kumar,“Electronic Devices and Circuits”"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Gaonkar R.S.: “Microprocessor Architecture Programming with the 8085” "
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/ap11"
+            />
+        <TextView
+            android:id="@+id/ap12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.John Uffenbeck: “8086/8088 family: “Design, Programming and Interfacing"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Bhag Guru“Electromagnetic field theory fundamentals”"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/eme11"
+            />
+        <TextView
+            android:id="@+id/eme12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.J.D. Kraus, R.J. Marhefka, A.S. Khan “Antennas and Wave Propagation”"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Michael J Roberts, Fundamentals of Signals and systems"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/bee11"
+            />
+        <TextView
+            android:id="@+id/bee12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.B.P. Lathi, Principles of Linear Systems and Signals"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Nagrath, M.Gopal, “Control System Engineering”"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:id="@+id/evs11"
+            />
+        <TextView
+            android:id="@+id/evs12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.K.Ogata, “Modern Control Engineering”"
+            android:textSize="15sp"
+            android:layout_marginTop="150dip"
+            />
+
+
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Get Online"
+            android:id="@+id/gtol1"
+            android:onClick="ongetonlineclick1"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Get Online"
+            android:id="@+id/gtol2"
+            android:onClick="ongetonlineclick2"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Get Online"
+            android:id="@+id/gtol3"
+            android:onClick="ongetonlineclick3"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Get Online"
+            android:id="@+id/gtol4"
+            android:onClick="ongetonlineclick4"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Get Online"
+            android:id="@+id/gtol5"
+            android:onClick="ongetonlineclick5"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Get Online"
+            android:id="@+id/gtol6"
+            android:onClick="ongetonlineclick6"
+            />
+
+
+    </RelativeLayout>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/ssub11"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
